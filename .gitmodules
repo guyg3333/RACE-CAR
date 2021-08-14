@@ -1,0 +1,3 @@
+[submodule "AVB_Ethernet_switch_with_CAN_bus"]
+	path = AVB_Ethernet_switch_with_CAN_bus
+	url = https://github.com/guyg3333/AVB_Ethernet_switch_with_CAN_bus.git

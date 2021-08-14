@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:AVB switch with Can gateway-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AVB-switch-with-Can-gateway-rescue:KSZ8567STXI-TR-KSZ8567STXI-TR IC1
+L AVB-switch-with-Can-gateway-rescue:KSZ8567STXI-TR-KSZ8567STXI-TR-AVB-switch-with-Can-gateway-rescue IC1
 U 1 1 5C67DBC7
 P 5150 7000
 F 0 "IC1" H 4050 11400 50  0000 L CNN
@@ -37,7 +36,7 @@ U 1 1 5C6A7F1D
 P 3050 2200
 F 0 "C29" V 3000 2300 50  0000 C CNN
 F 1 "22uF" V 3050 1950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 2050 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3050 2200 50  0001 C CNN
 F 4 "‏‎CAP CER 22UF 6.3V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TDK Corporation‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -51,7 +50,7 @@ U 1 1 5C6AC358
 P 3050 2600
 F 0 "C31" V 3000 2700 50  0000 C CNN
 F 1 "0.1uF" V 3000 2300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 2450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 2450 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 2600 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -65,7 +64,7 @@ U 1 1 5C6AC3B7
 P 3050 2400
 F 0 "C30" V 3000 2500 50  0000 C CNN
 F 1 "0.1uF" V 3000 2100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 2250 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 2400 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -109,7 +108,7 @@ U 1 1 5C6B0C22
 P 3050 3650
 F 0 "C33" V 3000 3750 50  0000 C CNN
 F 1 "0.1uF" V 3000 3350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 3500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 3650 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -123,7 +122,7 @@ U 1 1 5C6B0C66
 P 3050 3850
 F 0 "C34" V 3000 3950 50  0000 C CNN
 F 1 "0.1uF" V 3000 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 3700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 3850 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -137,7 +136,7 @@ U 1 1 5C6B0C8E
 P 3050 4050
 F 0 "C35" V 3000 4150 50  0000 C CNN
 F 1 "0.1uF" V 3000 3750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 3900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 4050 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -151,7 +150,7 @@ U 1 1 5C6B0CCF
 P 3050 4250
 F 0 "C36" V 3000 4350 50  0000 C CNN
 F 1 "0.1uF" V 3000 3950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 4250 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -165,7 +164,7 @@ U 1 1 5C6B0CFB
 P 3050 4450
 F 0 "C37" V 3000 4550 50  0000 C CNN
 F 1 "0.1uF" V 3000 4150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 4450 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -179,7 +178,7 @@ U 1 1 5C6B0D25
 P 3050 4650
 F 0 "C38" V 3000 4750 50  0000 C CNN
 F 1 "0.1uF" V 3000 4350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 4650 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -193,7 +192,7 @@ U 1 1 5C6B0E43
 P 3050 4850
 F 0 "C39" V 3000 4950 50  0000 C CNN
 F 1 "0.1uF" V 3000 4550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 4700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 4850 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -207,7 +206,7 @@ U 1 1 5C6B0E75
 P 3050 5050
 F 0 "C40" V 3000 5150 50  0000 C CNN
 F 1 "0.1uF" V 3000 4750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 5050 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -221,7 +220,7 @@ U 1 1 5C6B0EA5
 P 3050 5250
 F 0 "C41" V 3000 5350 50  0000 C CNN
 F 1 "0.1uF" V 3000 4950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 5100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 5250 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -272,7 +271,7 @@ U 1 1 5C6B2F3B
 P 3050 3450
 F 0 "C32" V 3000 3550 50  0000 C CNN
 F 1 "22uF" V 3050 3200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 3300 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3050 3450 50  0001 C CNN
 F 4 "‏‎CAP CER 22UF 6.3V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TDK Corporation‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -321,7 +320,7 @@ U 1 1 5C6BBE7D
 P 3050 6250
 F 0 "C43" V 3000 6350 50  0000 C CNN
 F 1 "0.1uF" V 3000 5950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 6250 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -335,7 +334,7 @@ U 1 1 5C6BBE84
 P 3050 6450
 F 0 "C44" V 3000 6550 50  0000 C CNN
 F 1 "0.1uF" V 3000 6150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 6450 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -349,7 +348,7 @@ U 1 1 5C6BBE8B
 P 3050 6650
 F 0 "C45" V 3000 6750 50  0000 C CNN
 F 1 "0.1uF" V 3000 6350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 6500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 6650 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -363,7 +362,7 @@ U 1 1 5C6BBE92
 P 3050 6850
 F 0 "C46" V 3000 6950 50  0000 C CNN
 F 1 "0.1uF" V 3000 6550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 6700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 6850 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -377,7 +376,7 @@ U 1 1 5C6BBE99
 P 3050 7050
 F 0 "C47" V 3000 7150 50  0000 C CNN
 F 1 "0.1uF" V 3000 6750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 6900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 7050 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -391,7 +390,7 @@ U 1 1 5C6BBEA0
 P 3050 7250
 F 0 "C48" V 3000 7350 50  0000 C CNN
 F 1 "0.1uF" V 3000 6950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 7100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 7100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 7250 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -405,7 +404,7 @@ U 1 1 5C6BBEA7
 P 3050 7450
 F 0 "C49" V 3000 7550 50  0000 C CNN
 F 1 "0.1uF" V 3000 7150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 7300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 7300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 7450 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -419,7 +418,7 @@ U 1 1 5C6BBEAE
 P 3050 7650
 F 0 "C50" V 3000 7750 50  0000 C CNN
 F 1 "0.1uF" V 3000 7350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 7500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 7500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 7650 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -433,7 +432,7 @@ U 1 1 5C6BBEB5
 P 3050 7850
 F 0 "C51" V 3000 7950 50  0000 C CNN
 F 1 "0.1uF" V 3000 7550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 7700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 7700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3050 7850 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -484,7 +483,7 @@ U 1 1 5C6BBED3
 P 3050 6050
 F 0 "C42" V 3000 6150 50  0000 C CNN
 F 1 "22uF" V 3050 5800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 5900 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3050 6050 50  0001 C CNN
 F 4 "‏‎CAP CER 22UF 6.3V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TDK Corporation‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -533,7 +532,7 @@ U 1 1 5C6C4635
 P 7150 2400
 F 0 "C53" V 7100 2500 50  0000 C CNN
 F 1 "0.1uF" V 7100 2100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 2250 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 2400 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -547,7 +546,7 @@ U 1 1 5C6CAB34
 P 7150 2600
 F 0 "C54" V 7100 2700 50  0000 C CNN
 F 1 "0.1uF" V 7100 2300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 2450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 2450 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 2600 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -561,7 +560,7 @@ U 1 1 5C6CAB84
 P 7150 2800
 F 0 "C55" V 7100 2900 50  0000 C CNN
 F 1 "0.1uF" V 7100 2500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 2650 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 2800 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -575,7 +574,7 @@ U 1 1 5C6CABD2
 P 7150 3000
 F 0 "C56" V 7100 3100 50  0000 C CNN
 F 1 "0.1uF" V 7100 2700 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 2850 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 3000 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -589,7 +588,7 @@ U 1 1 5C6CAD8A
 P 7150 3200
 F 0 "C57" V 7100 3300 50  0000 C CNN
 F 1 "0.1uF" V 7100 2900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3050 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 3200 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -603,7 +602,7 @@ U 1 1 5C6CADE0
 P 7150 3400
 F 0 "C58" V 7100 3500 50  0000 C CNN
 F 1 "0.1uF" V 7100 3100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 3250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3250 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 3400 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -617,7 +616,7 @@ U 1 1 5C6CAE34
 P 7150 3600
 F 0 "C59" V 7100 3700 50  0000 C CNN
 F 1 "0.1uF" V 7100 3300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3450 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 3600 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -631,7 +630,7 @@ U 1 1 5C6CAF75
 P 7150 2200
 F 0 "C52" V 7100 2300 50  0000 C CNN
 F 1 "22uF" V 7150 1950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 2050 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7150 2200 50  0001 C CNN
 F 4 "‏‎CAP CER 22UF 6.3V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TDK Corporation‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -703,7 +702,7 @@ U 1 1 5C6E0532
 P 7150 4100
 F 0 "C60" V 7100 4200 50  0000 C CNN
 F 1 "22uF" V 7150 3850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7150 4100 50  0001 C CNN
 F 4 "‏‎CAP CER 22UF 6.3V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TDK Corporation‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -717,7 +716,7 @@ U 1 1 5C6E063D
 P 7150 4300
 F 0 "C61" V 7100 4400 50  0000 C CNN
 F 1 "0.1uF" V 7100 4000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 4300 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -731,7 +730,7 @@ U 1 1 5C6E06AD
 P 7150 4500
 F 0 "C62" V 7100 4600 50  0000 C CNN
 F 1 "0.1uF" V 7100 4200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4350 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 4500 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -774,7 +773,7 @@ U 1 1 5C6FC6F9
 P 7850 5100
 F 0 "C63" V 7800 5200 50  0000 C CNN
 F 1 "22uF" V 7850 4850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7888 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7888 4950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7850 5100 50  0001 C CNN
 F 4 "‏‎CAP CER 22UF 6.3V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TDK Corporation‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -788,7 +787,7 @@ U 1 1 5C6FC700
 P 7150 5300
 F 0 "C64" V 7100 5400 50  0000 C CNN
 F 1 "0.1uF" V 7100 5000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 5150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 5300 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -802,7 +801,7 @@ U 1 1 5C6FC707
 P 7150 5500
 F 0 "C65" V 7100 5600 50  0000 C CNN
 F 1 "0.1uF" V 7100 5200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 5350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 5350 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 5500 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -980,7 +979,7 @@ U 1 1 5C7800F3
 P 7750 8350
 F 0 "Y1" V 8000 8200 50  0000 L CNN
 F 1 "Crystal-25Mhz" V 7500 8050 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 7750 8350 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7750 8350 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en" H 7750 8350 50  0001 C CNN
 F 4 "‏‎CRYSTAL 25.0000MHZ 18PF SMD‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‏‎EPSON‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -994,7 +993,7 @@ U 1 1 5C788993
 P 8300 8200
 F 0 "C66" V 8350 8100 50  0000 C CNN
 F 1 "36pF" V 8250 8100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8338 8050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 8050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C360JB8NNNC.jsp" H 8300 8200 50  0001 C CNN
 F 4 "‏‎CAP CER 36PF 50V C0G/NP0 0603‎‏	" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1008,7 +1007,7 @@ U 1 1 5C788C2A
 P 8300 8500
 F 0 "C67" V 8350 8400 50  0000 C CNN
 F 1 "36pF" V 8250 8400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8338 8350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 8350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C360JB8NNNC.jsp" H 8300 8500 50  0001 C CNN
 F 4 "‏‎CAP CER 36PF 50V C0G/NP0 0603‎‏	" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1056,7 +1055,7 @@ U 1 1 5C7D5482
 P 7600 12600
 F 0 "R3" V 7393 12600 50  0000 C CNN
 F 1 "6.04K 1%" V 7484 12600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7530 12600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 12600 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 7600 12600 50  0001 C CNN
 F 4 "‏‎RES 6.04K OHM 1% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1250,7 +1249,7 @@ U 1 1 5CA648DC
 P 7600 12250
 F 0 "R2" V 7650 12100 50  0000 C CNN
 F 1 "4.7k" V 7650 12450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7530 12250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 12250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7600 12250 50  0001 C CNN
 F 4 "‏‎RES SMD 4.7K OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Yageo‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1320,7 +1319,7 @@ U 1 1 5C82250A
 P 7150 5100
 F 0 "C74" V 7100 5200 50  0000 C CNN
 F 1 "0.1uF" V 7100 4800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7188 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 5100 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1346,7 +1345,7 @@ U 1 1 5C9496A8
 P 8600 11000
 F 0 "D4" V 8554 11079 50  0000 L CNN
 F 1 "D" V 8645 11079 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 8600 11000 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8600 11000 50  0001 C CNN
 F 3 "~" H 8600 11000 50  0001 C CNN
 F 4 "‏‎DIODE GEN PURP 75V 150MA SOD523‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Micro Commercial Co‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1360,7 +1359,7 @@ U 1 1 5C949815
 P 8950 11000
 F 0 "R13" H 9020 11046 50  0000 L CNN
 F 1 "10k" H 9020 10955 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8880 11000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8880 11000 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 8950 11000 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1374,7 +1373,7 @@ U 1 1 5C949A10
 P 8950 11300
 F 0 "C4" H 9065 11346 50  0000 L CNN
 F 1 "10uF" H 9065 11255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8988 11150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8988 11150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/f38.pdf" H 8950 11300 50  0001 C CNN
 F 4 "‏‎Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
 F 5 "CL10A106MQ8NNNC‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
@@ -1388,7 +1387,7 @@ U 1 1 5C949B2F
 P 9450 11150
 F 0 "D5" H 9450 10934 50  0000 C CNN
 F 1 "D" H 9450 11025 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9450 11150 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9450 11150 50  0001 C CNN
 F 3 "~" H 9450 11150 50  0001 C CNN
 F 4 "‏‎DIODE GEN PURP 75V 150MA SOD523‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Micro Commercial Co‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1498,7 +1497,7 @@ U 1 1 5CA5F472
 P 1700 1650
 F 0 "J13" H 1780 1642 50  0000 L CNN
 F 1 "Conn_01x02" H 1780 1551 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1700 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1700 1650 50  0001 C CNN
 F 3 "~" H 1700 1650 50  0001 C CNN
 	1    1700 1650
 	1    0    0    -1  
@@ -1513,7 +1512,7 @@ U 1 1 5CA67095
 P 1450 3000
 F 0 "J12" H 1530 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 1530 2901 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1450 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1450 3000 50  0001 C CNN
 F 3 "~" H 1450 3000 50  0001 C CNN
 	1    1450 3000
 	1    0    0    -1  
@@ -1528,7 +1527,7 @@ U 1 1 5CA6ED1E
 P 1550 5300
 F 0 "J11" H 1630 5292 50  0000 L CNN
 F 1 "Conn_01x02" H 1630 5201 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1550 5300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1550 5300 50  0001 C CNN
 F 3 "~" H 1550 5300 50  0001 C CNN
 	1    1550 5300
 	1    0    0    -1  
@@ -1541,7 +1540,7 @@ U 1 1 5CA770F3
 P 9200 3850
 F 0 "J15" H 9280 3842 50  0000 L CNN
 F 1 "Conn_01x02" H 9280 3751 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9200 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9200 3850 50  0001 C CNN
 F 3 "~" H 9200 3850 50  0001 C CNN
 	1    9200 3850
 	1    0    0    -1  
@@ -1552,7 +1551,7 @@ U 1 1 5CA77AD3
 P 9450 1750
 F 0 "J14" H 9530 1742 50  0000 L CNN
 F 1 "Conn_01x02" H 9530 1651 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9450 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9450 1750 50  0001 C CNN
 F 3 "~" H 9450 1750 50  0001 C CNN
 	1    9450 1750
 	1    0    0    -1  
@@ -1565,7 +1564,7 @@ AR Path="/5C649B52/5D0D7F52" Ref="FB?"  Part="1"
 AR Path="/5C67DB96/5D0D7F52" Ref="FB3"  Part="1" 
 F 0 "FB3" V 2074 5800 50  0000 C CNN
 F 1 "Ferrite_Bead" V 1983 5800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 1730 5800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1730 5800 50  0001 C CNN
 F 3 "~" H 1800 5800 50  0001 C CNN
 	1    1800 5800
 	0    -1   -1   0   
@@ -1582,7 +1581,7 @@ AR Path="/5C649B52/5D0FFBFE" Ref="FB?"  Part="1"
 AR Path="/5C67DB96/5D0FFBFE" Ref="FB4"  Part="1" 
 F 0 "FB4" V 2574 3200 50  0000 C CNN
 F 1 "Ferrite_Bead" V 2483 3200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 2230 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2230 3200 50  0001 C CNN
 F 3 "~" H 2300 3200 50  0001 C CNN
 	1    2300 3200
 	0    -1   -1   0   
@@ -1599,7 +1598,7 @@ AR Path="/5C649B52/5D1206E7" Ref="FB?"  Part="1"
 AR Path="/5C67DB96/5D1206E7" Ref="FB5"  Part="1" 
 F 0 "FB5" V 2774 1900 50  0000 C CNN
 F 1 "Ferrite_Bead" V 2683 1900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 2430 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 1900 50  0001 C CNN
 F 3 "~" H 2500 1900 50  0001 C CNN
 	1    2500 1900
 	0    -1   -1   0   
@@ -1616,7 +1615,7 @@ AR Path="/5C649B52/5D141EE0" Ref="FB?"  Part="1"
 AR Path="/5C67DB96/5D141EE0" Ref="FB6"  Part="1" 
 F 0 "FB6" V 8274 1850 50  0000 C CNN
 F 1 "Ferrite_Bead" V 8183 1850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 7930 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7930 1850 50  0001 C CNN
 F 3 "~" H 8000 1850 50  0001 C CNN
 	1    8000 1850
 	0    -1   -1   0   
@@ -1634,7 +1633,7 @@ U 1 1 5D1A8341
 P 9450 10700
 F 0 "J16" H 9530 10692 50  0000 L CNN
 F 1 "Conn_01x02" H 9530 10601 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9450 10700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9450 10700 50  0001 C CNN
 F 3 "~" H 9450 10700 50  0001 C CNN
 	1    9450 10700
 	1    0    0    -1  
@@ -1671,7 +1670,7 @@ U 1 1 5D1CD248
 P 1700 8900
 F 0 "R30" V 1493 8900 50  0000 C CNN
 F 1 "750" V 1584 8900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1630 8900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 8900 50  0001 C CNN
 F 3 "~" H 1700 8900 50  0001 C CNN
 	1    1700 8900
 	0    1    1    0   
@@ -1682,7 +1681,7 @@ U 1 1 5D1CD3BA
 P 1700 9050
 F 0 "R31" V 1493 9050 50  0000 C CNN
 F 1 "750" V 1584 9050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1630 9050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 9050 50  0001 C CNN
 F 3 "~" H 1700 9050 50  0001 C CNN
 	1    1700 9050
 	0    1    1    0   
@@ -1721,7 +1720,7 @@ U 1 1 5D1F5CB7
 P 1650 9700
 F 0 "R28" V 1443 9700 50  0000 C CNN
 F 1 "750" V 1534 9700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1580 9700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1580 9700 50  0001 C CNN
 F 3 "~" H 1650 9700 50  0001 C CNN
 	1    1650 9700
 	0    1    1    0   
@@ -1732,7 +1731,7 @@ U 1 1 5D1F5CBE
 P 1650 9850
 F 0 "R29" V 1443 9850 50  0000 C CNN
 F 1 "750" V 1534 9850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1580 9850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1580 9850 50  0001 C CNN
 F 3 "~" H 1650 9850 50  0001 C CNN
 	1    1650 9850
 	0    1    1    0   
@@ -1769,7 +1768,7 @@ U 1 1 5D201197
 P 1600 10600
 F 0 "R22" V 1393 10600 50  0000 C CNN
 F 1 "750" V 1484 10600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1530 10600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 10600 50  0001 C CNN
 F 3 "~" H 1600 10600 50  0001 C CNN
 	1    1600 10600
 	0    1    1    0   
@@ -1780,7 +1779,7 @@ U 1 1 5D20119E
 P 1600 10750
 F 0 "R23" V 1393 10750 50  0000 C CNN
 F 1 "750" V 1484 10750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1530 10750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 10750 50  0001 C CNN
 F 3 "~" H 1600 10750 50  0001 C CNN
 	1    1600 10750
 	0    1    1    0   
@@ -1817,7 +1816,7 @@ U 1 1 5D20D8F2
 P 1600 11550
 F 0 "R24" V 1393 11550 50  0000 C CNN
 F 1 "750" V 1484 11550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1530 11550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 11550 50  0001 C CNN
 F 3 "~" H 1600 11550 50  0001 C CNN
 	1    1600 11550
 	0    1    1    0   
@@ -1828,7 +1827,7 @@ U 1 1 5D20D8F9
 P 1600 11700
 F 0 "R25" V 1393 11700 50  0000 C CNN
 F 1 "750" V 1484 11700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1530 11700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 11700 50  0001 C CNN
 F 3 "~" H 1600 11700 50  0001 C CNN
 	1    1600 11700
 	0    1    1    0   
@@ -1865,7 +1864,7 @@ U 1 1 5D21B026
 P 1600 12400
 F 0 "R26" V 1393 12400 50  0000 C CNN
 F 1 "750" V 1484 12400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1530 12400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 12400 50  0001 C CNN
 F 3 "~" H 1600 12400 50  0001 C CNN
 	1    1600 12400
 	0    1    1    0   
@@ -1876,7 +1875,7 @@ U 1 1 5D21B02D
 P 1600 12550
 F 0 "R27" V 1393 12550 50  0000 C CNN
 F 1 "750" V 1484 12550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1530 12550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 12550 50  0001 C CNN
 F 3 "~" H 1600 12550 50  0001 C CNN
 	1    1600 12550
 	0    1    1    0   

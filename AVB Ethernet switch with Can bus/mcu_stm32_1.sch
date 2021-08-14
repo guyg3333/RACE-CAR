@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:AVB switch with Can gateway-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -23,7 +22,7 @@ AR Path="/5C57F843/5C57F922" Ref="U?"  Part="1"
 AR Path="/5C649B52/5C57F922" Ref="U7"  Part="1" 
 F 0 "U7" H 13200 6250 50  0000 C CNN
 F 1 "SN65HVD234" H 13200 6150 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 13550 5350 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13550 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf" H 13450 6250 50  0001 C CNN
 F 4 "CANbus ‎8-SOIC" H 0   0   50  0001 C CNN "Description"
 F 5 "‏‎Texas Instruments‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -38,7 +37,7 @@ CAN2_RX
 Wire Wire Line
 	13550 5550 14100 5550
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C?
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C?
 U 1 1 5C57F931
 P 14100 6300
 AR Path="/5C57F931" Ref="C?"  Part="1" 
@@ -47,7 +46,7 @@ AR Path="/5C57F843/5C57F931" Ref="C?"  Part="1"
 AR Path="/5C649B52/5C57F931" Ref="C28"  Part="1" 
 F 0 "C28" H 14100 6450 60  0000 L CNN
 F 1 "2.2uF" V 14303 6404 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 14250 5940 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14250 5940 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A225KP8NNNC.jsp" H 14100 6300 60  0001 C CNN
 F 4 "‏‎CAP CER 2.2UF 10V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -78,7 +77,7 @@ AR Path="/5C57F843/5C57F950" Ref="U?"  Part="1"
 AR Path="/5C649B52/5C57F950" Ref="U6"  Part="1" 
 F 0 "U6" H 13200 4450 50  0000 C CNN
 F 1 "SN65HVD234" H 13200 4350 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 13550 3550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13550 3550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf" H 13450 4450 50  0001 C CNN
 F 4 "CANbus ‎8-SOIC" H 0   0   50  0001 C CNN "Description"
 F 5 "‏‎Texas Instruments‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -95,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	13550 3750 14100 3750
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C?
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C?
 U 1 1 5C57F95F
 P 14100 4500
 AR Path="/5C57F95F" Ref="C?"  Part="1" 
@@ -104,7 +103,7 @@ AR Path="/5C57F843/5C57F95F" Ref="C?"  Part="1"
 AR Path="/5C649B52/5C57F95F" Ref="C27"  Part="1" 
 F 0 "C27" H 14100 4650 60  0000 L CNN
 F 1 "2.2uF" V 14303 4604 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 14250 4140 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14250 4140 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A225KP8NNNC.jsp" H 14100 4500 60  0001 C CNN
 F 4 "‏‎CAP CER 2.2UF 10V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -132,7 +131,7 @@ AR Path="/5C57F843/5C57F97E" Ref="U?"  Part="1"
 AR Path="/5C649B52/5C57F97E" Ref="U5"  Part="1" 
 F 0 "U5" H 13150 8000 50  0000 C CNN
 F 1 "SN65HVD234" H 13150 7900 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 13500 7100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13500 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf" H 13400 8000 50  0001 C CNN
 F 4 "CANbus ‎8-SOIC" H 0   0   50  0001 C CNN "Description"
 F 5 "‏‎Texas Instruments‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -147,7 +146,7 @@ CAN3_RX
 Wire Wire Line
 	13500 7300 14050 7300
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C?
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C?
 U 1 1 5C57F98D
 P 14050 8050
 AR Path="/5C57F98D" Ref="C?"  Part="1" 
@@ -156,7 +155,7 @@ AR Path="/5C57F843/5C57F98D" Ref="C?"  Part="1"
 AR Path="/5C649B52/5C57F98D" Ref="C26"  Part="1" 
 F 0 "C26" H 14050 8200 60  0000 L CNN
 F 1 "2.2uF" V 14253 8154 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 14200 7690 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14200 7690 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A225KP8NNNC.jsp" H 14050 8050 60  0001 C CNN
 F 4 "‏‎CAP CER 2.2UF 10V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -240,14 +239,14 @@ Wire Wire Line
 	13550 4600 13550 4500
 Connection ~ 13550 4500
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C20
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C20
 U 1 1 5C690075
 P 5000 2650
 AR Path="/5C690075" Ref="C20"  Part="1" 
 AR Path="/5C649B52/5C690075" Ref="C20"  Part="1" 
 F 0 "C20" V 5105 2754 60  0000 L CNN
 F 1 "0.1uF" V 5203 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5150 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 2290 60  0001 C CNN
 F 3 "" H 5000 2650 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -260,14 +259,14 @@ Wire Wire Line
 Wire Wire Line
 	5000 2650 5400 2650
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C21
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C21
 U 1 1 5C69007F
 P 5400 2650
 AR Path="/5C69007F" Ref="C21"  Part="1" 
 AR Path="/5C649B52/5C69007F" Ref="C21"  Part="1" 
 F 0 "C21" V 5505 2754 60  0000 L CNN
 F 1 "0.1uF" V 5603 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5550 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 2290 60  0001 C CNN
 F 3 "" H 5400 2650 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -278,14 +277,14 @@ $EndComp
 Connection ~ 5400 2650
 Connection ~ 5400 2950
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C22
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C22
 U 1 1 5C690089
 P 5800 2650
 AR Path="/5C690089" Ref="C22"  Part="1" 
 AR Path="/5C649B52/5C690089" Ref="C22"  Part="1" 
 F 0 "C22" V 5905 2754 60  0000 L CNN
 F 1 "0.1uF" V 6003 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5950 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 2290 60  0001 C CNN
 F 3 "" H 5800 2650 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -294,14 +293,14 @@ F 6 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C23
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C23
 U 1 1 5C690091
 P 6150 2650
 AR Path="/5C690091" Ref="C23"  Part="1" 
 AR Path="/5C649B52/5C690091" Ref="C23"  Part="1" 
 F 0 "C23" V 6255 2754 60  0000 L CNN
 F 1 "0.1uF" V 6353 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6300 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 2290 60  0001 C CNN
 F 3 "" H 6150 2650 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -310,14 +309,14 @@ F 6 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C24
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C24
 U 1 1 5C69009B
 P 6600 2650
 AR Path="/5C69009B" Ref="C24"  Part="1" 
 AR Path="/5C649B52/5C69009B" Ref="C24"  Part="1" 
 F 0 "C24" V 6705 2754 60  0000 L CNN
 F 1 "0.1uF" V 6803 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6750 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6750 2290 60  0001 C CNN
 F 3 "" H 6600 2650 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -332,14 +331,14 @@ Connection ~ 5800 2950
 Wire Wire Line
 	5400 2650 5800 2650
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C19
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C19
 U 1 1 5C6900A7
 P 4550 2650
 AR Path="/5C6900A7" Ref="C19"  Part="1" 
 AR Path="/5C649B52/5C6900A7" Ref="C19"  Part="1" 
 F 0 "C19" V 4655 2754 60  0000 L CNN
 F 1 "4.7uF" V 4753 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4700 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 2290 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B475KQ8NQNC.jsp" H 4550 2650 60  0001 C CNN
 F 4 "‏‎Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
 F 5 "CL10B475KQ8NQNC‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
@@ -354,14 +353,14 @@ Wire Wire Line
 	4550 2950 5000 2950
 Connection ~ 5000 2950
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C18
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C18
 U 1 1 5C6900C1
 P 3400 4050
 AR Path="/5C6900C1" Ref="C18"  Part="1" 
 AR Path="/5C649B52/5C6900C1" Ref="C18"  Part="1" 
 F 0 "C18" H 3500 4200 60  0000 L CNN
 F 1 "2.2uF" V 3603 4154 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3550 3690 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 3690 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A225KP8NNNC.jsp" H 3400 4050 60  0001 C CNN
 F 4 "‏‎CAP CER 2.2UF 10V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -370,14 +369,14 @@ F 6 "CL10A225KP8NNNC‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C16
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C16
 U 1 1 5C6900C9
 P 3100 3850
 AR Path="/5C6900C9" Ref="C16"  Part="1" 
 AR Path="/5C649B52/5C6900C9" Ref="C16"  Part="1" 
 F 0 "C16" H 3100 4000 60  0000 L CNN
 F 1 "2.2uF" V 3303 3954 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3250 3490 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 3490 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A225KP8NNNC.jsp" H 3100 3850 60  0001 C CNN
 F 4 "‏‎CAP CER 2.2UF 10V X5R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -388,14 +387,14 @@ $EndComp
 Wire Wire Line
 	4000 3950 3550 3950
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C25
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C25
 U 1 1 5C6900DF
 P 7050 2650
 AR Path="/5C6900DF" Ref="C25"  Part="1" 
 AR Path="/5C649B52/5C6900DF" Ref="C25"  Part="1" 
 F 0 "C25" V 7155 2754 60  0000 L CNN
 F 1 "0.1uF" V 7253 2754 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7200 2290 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 2290 60  0001 C CNN
 F 3 "" H 7050 2650 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -408,14 +407,14 @@ Wire Wire Line
 Wire Wire Line
 	4450 8750 4450 9150
 $Comp
-L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue C17
+L AVB-switch-with-Can-gateway-rescue:CC0603KRX7R7BB104-symbols-Can-Gateway-rescue-AVB-switch-with-Can-gateway-rescue C17
 U 1 1 5C6900FC
 P 3400 3550
 AR Path="/5C6900FC" Ref="C17"  Part="1" 
 AR Path="/5C649B52/5C6900FC" Ref="C17"  Part="1" 
 F 0 "C17" H 3500 3400 60  0000 L CNN
 F 1 "0.1uF" V 3603 3654 60  0001 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3550 3190 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 3190 60  0001 C CNN
 F 3 "" H 3400 3550 60  0000 C CNN
 F 4 "‏‎CAP CER 0.1UF 16V X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -914,7 +913,7 @@ U 1 1 5C69006D
 P 4900 5950
 F 0 "U4" H 4850 3064 50  0000 C CNN
 F 1 "STM32F765VITx" H 4850 2973 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-100_14x14mm_Pitch0.5mm" H 4200 3350 50  0001 R CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 4200 3350 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 4900 5950 50  0001 C CNN
 F 4 "‏‎IC MCU 32BIT 2MB FLASH 100LQFP‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "	‏‎STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -976,7 +975,7 @@ U 1 1 5C6C949C
 P 9250 1900
 F 0 "J9" H 9300 1550 50  0000 C CNN
 F 1 "Conn_02x04_Counter_Clockwise" H 9250 2150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 9250 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9250 1900 50  0001 C CNN
 F 3 "~" H 9250 1900 50  0001 C CNN
 	1    9250 1900
 	1    0    0    -1  
@@ -990,7 +989,7 @@ U 1 1 5C74D9BD
 P 12950 4450
 F 0 "R5" H 13020 4496 50  0000 L CNN
 F 1 "10k" H 13020 4405 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12880 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12880 4450 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 12950 4450 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1024,7 +1023,7 @@ U 1 1 5C78718A
 P 12950 6250
 F 0 "R6" H 13020 6296 50  0000 L CNN
 F 1 "10k" H 13020 6205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12880 6250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12880 6250 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 12950 6250 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1058,7 +1057,7 @@ U 1 1 5C79A2CF
 P 12900 8000
 F 0 "R4" H 12970 8046 50  0000 L CNN
 F 1 "10k" H 12970 7955 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12830 8000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12830 8000 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 12900 8000 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1076,7 +1075,7 @@ U 1 1 5C7ADB94
 P 12400 7700
 F 0 "R7" V 12193 7700 50  0000 C CNN
 F 1 "10k" V 12284 7700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12330 7700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12330 7700 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 12400 7700 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1094,7 +1093,7 @@ U 1 1 5C7E5C6A
 P 12450 5950
 F 0 "R9" V 12243 5950 50  0000 C CNN
 F 1 "10k" V 12334 5950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12380 5950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12380 5950 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 12450 5950 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1112,7 +1111,7 @@ U 1 1 5C7F80FD
 P 12450 4150
 F 0 "R8" V 12243 4150 50  0000 C CNN
 F 1 "10k" V 12334 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12380 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12380 4150 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 12450 4150 50  0001 C CNN
 F 4 "‏‎RES 10K OHM 1% 1/8W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1128,7 +1127,7 @@ U 1 1 5C819BF3
 P 14450 5550
 F 0 "R12" H 14520 5596 50  0000 L CNN
 F 1 "120" H 14520 5505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14380 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 5550 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 14450 5550 50  0001 C CNN
 F 4 "‏‎CRGCQ 0603 120R 1%‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity Passive Product‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1152,7 +1151,7 @@ U 1 1 5C8351F1
 P 14450 3750
 F 0 "R11" H 14520 3796 50  0000 L CNN
 F 1 "120" H 14520 3705 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14380 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 3750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 14450 3750 50  0001 C CNN
 F 4 "‏‎CRGCQ 0603 120R 1%‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity Passive Product‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1166,7 +1165,7 @@ U 1 1 5C83E6EF
 P 14400 7300
 F 0 "R10" H 14470 7346 50  0000 L CNN
 F 1 "120" H 14470 7255 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14330 7300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14330 7300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 14400 7300 50  0001 C CNN
 F 4 "‏‎CRGCQ 0603 120R 1%‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity Passive Product‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1262,7 +1261,7 @@ U 1 1 5CA00928
 P 9300 9100
 F 0 "J5" H 9380 9092 50  0000 L CNN
 F 1 "Conn_01x04" H 9380 9001 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9300 9100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9300 9100 50  0001 C CNN
 F 3 "~" H 9300 9100 50  0001 C CNN
 	1    9300 9100
 	1    0    0    -1  
@@ -1276,7 +1275,7 @@ AR Path="/5C67DB96/5CA818C9" Ref="J?"  Part="1"
 AR Path="/5C649B52/5CA818C9" Ref="J10"  Part="1" 
 F 0 "J10" H 3070 2625 50  0000 C CNN
 F 1 "Conn_01x02" H 3070 2716 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3150 2950 50  0001 C CNN
 F 3 "~" H 3150 2950 50  0001 C CNN
 	1    3150 2950
 	-1   0    0    1   
@@ -1357,7 +1356,7 @@ U 1 1 5D07F060
 P 3850 2950
 F 0 "FB2" V 4124 2950 50  0000 C CNN
 F 1 "Ferrite_Bead" V 4033 2950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 3780 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 2950 50  0001 C CNN
 F 3 "~" H 3850 2950 50  0001 C CNN
 	1    3850 2950
 	0    -1   -1   0   
@@ -1375,7 +1374,7 @@ AR Path="/5C67DB96/5D2A8B8A" Ref="Y?"  Part="1"
 AR Path="/5C649B52/5D2A8B8A" Ref="Y2"  Part="1" 
 F 0 "Y2" V 2600 4800 50  0000 L CNN
 F 1 "Crystal-8Mhz" V 2100 4650 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 2350 4950 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2350 4950 50  0001 C CNN
 F 3 "https://www.ecsxtal.com/store/pdf/ecx_53b.pdf" H 2350 4950 50  0001 C CNN
 F 4 "CRYSTAL 8MHZ 10PF SMD‎‏" H -5400 -3400 50  0001 C CNN "Description"
 F 5 "‏‎EPSON‎‏" H -5400 -3400 50  0001 C CNN "Manufacturer_Name"
@@ -1391,7 +1390,7 @@ AR Path="/5C67DB96/5D2A8B94" Ref="C?"  Part="1"
 AR Path="/5C649B52/5D2A8B94" Ref="C79"  Part="1" 
 F 0 "C79" V 1850 4700 50  0000 C CNN
 F 1 "20pF" V 1750 4700 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 4650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C360JB8NNNC.jsp" H 1800 4800 50  0001 C CNN
 F 4 "‏‎CAP CER 36PF 50V C0G/NP0 0603‎‏	" H -6500 -3400 50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H -6500 -3400 50  0001 C CNN "Manufacturer_Name"
@@ -1407,7 +1406,7 @@ AR Path="/5C67DB96/5D2A8B9E" Ref="C?"  Part="1"
 AR Path="/5C649B52/5D2A8B9E" Ref="C80"  Part="1" 
 F 0 "C80" V 1850 5000 50  0000 C CNN
 F 1 "20pF" V 1750 5000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 4950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C360JB8NNNC.jsp" H 1800 5100 50  0001 C CNN
 F 4 "‏‎CAP CER 36PF 50V C0G/NP0 0603‎‏	" H -6500 -3400 50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics‎‏" H -6500 -3400 50  0001 C CNN "Manufacturer_Name"
@@ -1489,7 +1488,7 @@ U 1 1 5D2E9FE2
 P 3700 3750
 F 0 "R1" V 3493 3750 50  0000 C CNN
 F 1 "10k" V 3584 3750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 3630 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 3750 50  0001 C CNN
 F 3 "~" H 3700 3750 50  0001 C CNN
 	1    3700 3750
 	0    1    1    0   

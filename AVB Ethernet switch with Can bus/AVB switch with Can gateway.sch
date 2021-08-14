@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:AVB switch with Can gateway-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -50,7 +49,7 @@ F29 "CANH_3" I L 5400 4300 50
 F30 "CANL_3" I L 5400 4400 50 
 $EndSheet
 $Comp
-L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45 J4
+L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45-AVB-switch-with-Can-gateway-rescue J4
 U 1 1 5C7FAD37
 P 12250 2500
 F 0 "J4" H 12550 1050 50  0000 L CNN
@@ -80,7 +79,7 @@ U 1 1 5C89B6F0
 P 11500 3300
 F 0 "C1" V 11550 3100 50  0000 C CNN
 F 1 "0.1uF" V 11450 3150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11538 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11538 3150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 11500 3300 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -94,7 +93,7 @@ U 1 1 5C89B74B
 P 11500 3500
 F 0 "C2" V 11550 3300 50  0000 C CNN
 F 1 "0.1uF" V 11450 3350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11538 3350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11538 3350 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 11500 3500 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -183,7 +182,7 @@ U 1 1 5C8DE5C1
 P 11500 3700
 F 0 "C3" V 11550 3500 50  0000 C CNN
 F 1 "1000pF" V 11450 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11538 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11538 3550 50  0001 C CNN
 F 3 "~" H 11500 3700 50  0001 C CNN
 F 4 "‏‎CAP CER 1000PF 1KV X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -213,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 2150 11650 2150
 $Comp
-L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45 J6
+L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45-AVB-switch-with-Can-gateway-rescue J6
 U 1 1 5C8DFE72
 P 14500 2500
 F 0 "J6" H 14800 1050 50  0000 L CNN
@@ -243,7 +242,7 @@ U 1 1 5C8DFE7F
 P 13750 3300
 F 0 "C7" V 13700 2950 50  0000 C CNN
 F 1 "0.1uF" V 13700 3150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13788 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13788 3150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13750 3300 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -257,7 +256,7 @@ U 1 1 5C8DFE86
 P 13750 3500
 F 0 "C8" V 13700 3150 50  0000 C CNN
 F 1 "0.1uF" V 13700 3350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13788 3350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13788 3350 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13750 3500 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -289,7 +288,7 @@ U 1 1 5C8DFE9E
 P 13750 3700
 F 0 "C9" V 13700 3350 50  0000 C CNN
 F 1 "1000pF" V 13700 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13788 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13788 3550 50  0001 C CNN
 F 3 "~" H 13750 3700 50  0001 C CNN
 F 4 "‏‎CAP CER 1000PF 1KV X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -307,7 +306,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 3700 13900 3900
 $Comp
-L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45 J7
+L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45-AVB-switch-with-Can-gateway-rescue J7
 U 1 1 5C8E0BFD
 P 14500 5100
 F 0 "J7" H 14800 3650 50  0000 L CNN
@@ -337,7 +336,7 @@ U 1 1 5C8E0C0A
 P 13750 5900
 F 0 "C10" V 13700 5450 50  0000 C CNN
 F 1 "0.1uF" V 13700 5750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13788 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13788 5750 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13750 5900 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -351,7 +350,7 @@ U 1 1 5C8E0C11
 P 13750 6100
 F 0 "C11" V 13700 5650 50  0000 C CNN
 F 1 "0.1uF" V 13700 5950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13788 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13788 5950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13750 6100 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -383,7 +382,7 @@ U 1 1 5C8E0C29
 P 13750 6300
 F 0 "C12" V 13700 5850 50  0000 C CNN
 F 1 "1000pF" V 13700 6150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13788 6150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13788 6150 50  0001 C CNN
 F 3 "~" H 13750 6300 50  0001 C CNN
 F 4 "‏‎CAP CER 1000PF 1KV X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -401,7 +400,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 6300 13900 6500
 $Comp
-L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45 J8
+L AVB-switch-with-Can-gateway-rescue:RJ45_Magjack_Connector-Rj45-AVB-switch-with-Can-gateway-rescue J8
 U 1 1 5C8EA4B2
 P 14500 7700
 F 0 "J8" H 14800 6250 50  0000 L CNN
@@ -431,7 +430,7 @@ U 1 1 5C8EA4BF
 P 13700 8500
 F 0 "C13" V 13650 8100 50  0000 C CNN
 F 1 "0.1uF" V 13650 8350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13738 8350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13738 8350 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13700 8500 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -445,7 +444,7 @@ U 1 1 5C8EA4C6
 P 13700 8700
 F 0 "C14" V 13650 8300 50  0000 C CNN
 F 1 "0.1uF" V 13650 8550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13738 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13738 8550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13700 8700 50  0001 C CNN
 F 4 "C0603C104J4RACTU‎‏" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
 F 5 "‎KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -477,7 +476,7 @@ U 1 1 5C8EA4DE
 P 13700 8900
 F 0 "C15" V 13650 8500 50  0000 C CNN
 F 1 "1000pF" V 13650 8750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13738 8750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13738 8750 50  0001 C CNN
 F 3 "~" H 13700 8900 50  0001 C CNN
 F 4 "‏‎CAP CER 1000PF 1KV X7R 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -705,12 +704,12 @@ Wire Wire Line
 Wire Wire Line
 	7150 4300 8250 4300
 $Comp
-L AVB-switch-with-Can-gateway-rescue:Molex_micro_fit_2X2-Rj45 J1
+L AVB-switch-with-Can-gateway-rescue:Molex_micro_fit_2X2-Rj45-AVB-switch-with-Can-gateway-rescue J1
 U 1 1 5CB81B96
 P 3700 2400
 F 0 "J1" H 3706 2915 50  0000 C CNN
 F 1 "Molex_micro_fit_2X2" H 3050 2700 50  0000 C CNN
-F 2 "AVB switch with Can gateway:Molex micro_fir 2X2" H 4050 2350 50  0001 C CNN
+F 2 "AVB switch with Can gateway:Molex_micro_fit_2X2" H 4050 2350 50  0001 C CNN
 F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-5984.pdf" H 4050 2350 50  0001 C CNN
 F 4 "‏‎CONN HEADER VERT 4POS 3MM‎‏	" H 0   0   50  0001 C CNN "Description"
 F 5 "Molex‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -719,12 +718,12 @@ F 6 "‏‎CONN HEADER VERT 4POS 3MM‎‏" H 0   0   50  0001 C CNN "Manufactur
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVB-switch-with-Can-gateway-rescue:Molex_micro_fit_2X2-Rj45 J2
+L AVB-switch-with-Can-gateway-rescue:Molex_micro_fit_2X2-Rj45-AVB-switch-with-Can-gateway-rescue J2
 U 1 1 5CB81C2C
 P 3700 3400
 F 0 "J2" H 3706 3915 50  0000 C CNN
 F 1 "Molex_micro_fit_2X2" H 3100 3700 50  0000 C CNN
-F 2 "AVB switch with Can gateway:Molex micro_fir 2X2" H 4050 3350 50  0001 C CNN
+F 2 "AVB switch with Can gateway:Molex_micro_fit_2X2" H 4050 3350 50  0001 C CNN
 F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-5984.pdf" H 4050 3350 50  0001 C CNN
 F 4 "‏‎CONN HEADER VERT 4POS 3MM‎‏	" H 0   0   50  0001 C CNN "Description"
 F 5 "Molex‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -733,12 +732,12 @@ F 6 "‏‎CONN HEADER VERT 4POS 3MM‎‏" H 0   0   50  0001 C CNN "Manufactur
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVB-switch-with-Can-gateway-rescue:Molex_micro_fit_2X2-Rj45 J3
+L AVB-switch-with-Can-gateway-rescue:Molex_micro_fit_2X2-Rj45-AVB-switch-with-Can-gateway-rescue J3
 U 1 1 5CB81C86
 P 3700 4350
 F 0 "J3" H 3706 4865 50  0000 C CNN
 F 1 "Molex_micro_fit_2X2" H 3050 4750 50  0000 C CNN
-F 2 "AVB switch with Can gateway:Molex micro_fir 2X2" H 4050 4300 50  0001 C CNN
+F 2 "AVB switch with Can gateway:Molex_micro_fit_2X2" H 4050 4300 50  0001 C CNN
 F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-5984.pdf" H 4050 4300 50  0001 C CNN
 F 4 "‏‎CONN HEADER VERT 4POS 3MM‎‏	" H 0   0   50  0001 C CNN "Description"
 F 5 "Molex‎‏" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -785,12 +784,12 @@ Wire Wire Line
 Wire Wire Line
 	13850 8900 13900 8900
 $Comp
-L AVB-switch-with-can:LINEAR_LDO U1
+L AVB-switch-with-Can-gateway-rescue:LINEAR_LDO-AVB-switch-with-can U1
 U 1 1 5C764D3B
 P 2000 9750
 F 0 "U1" H 1750 9400 50  0000 L CNN
 F 1 "LINEAR_LDO" H 1750 9950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 2050 9750 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2050 9750 50  0001 C CNN
 F 3 "" H 2050 9750 50  0001 C CNN
 F 4 "‏‎IC REG LINEAR 3.3V 1A SOT223‎‏" H -550 -300 50  0001 C CNN "Description"
 F 5 "ON Semiconductor‎‏" H -550 -300 50  0001 C CNN "Manufacturer_Name"
@@ -833,7 +832,7 @@ U 1 1 5C7DBFFD
 P 1050 9850
 F 0 "C68" H 1165 9896 50  0000 L CNN
 F 1 "10uF" H 1165 9805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1050 9850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 9850 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 1050 9850 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -847,7 +846,7 @@ U 1 1 5C7DC07F
 P 3250 9850
 F 0 "C69" H 3365 9896 50  0000 L CNN
 F 1 "10uF" H 3365 9805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3250 9850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 9850 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 3250 9850 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -859,12 +858,12 @@ Connection ~ 3250 9700
 Wire Wire Line
 	3250 9700 3550 9700
 $Comp
-L AVB-switch-with-can:LINEAR_LDO U2
+L AVB-switch-with-Can-gateway-rescue:LINEAR_LDO-AVB-switch-with-can U2
 U 1 1 5C7DC68A
 P 5400 9750
 F 0 "U2" H 5150 9400 50  0000 L CNN
 F 1 "LINEAR_LDO" H 5150 9950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 5450 9750 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5450 9750 50  0001 C CNN
 F 3 "" H 5450 9750 50  0001 C CNN
 F 4 "‏‎IC REG LINEAR 1.2V 1A SOT223‎‏" H -550 -300 50  0001 C CNN "Description"
 F 5 "	‏‎STMicroelectronics" H -550 -300 50  0001 C CNN "Manufacturer_Name"
@@ -896,7 +895,7 @@ U 1 1 5C7DC6AE
 P 4450 9850
 F 0 "C70" H 4565 9896 50  0000 L CNN
 F 1 "0.1uF" H 4565 9805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4450 9850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 9850 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4450 9850 50  0001 C CNN
 F 4 "‏‎CAP CER 0.1UF 50V X7R 1206‎‏	" H 0   -100 50  0001 C CNN "Description"
 F 5 "Yageo‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -911,7 +910,7 @@ U 1 1 5C7DC6B7
 P 6650 9850
 F 0 "C71" H 6765 9896 50  0000 L CNN
 F 1 "10uF" H 6765 9805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6650 9850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 9850 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 6650 9850 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -923,12 +922,12 @@ Connection ~ 6650 9700
 Wire Wire Line
 	6650 9700 6950 9700
 $Comp
-L AVB-switch-with-can:LINEAR_LDO U3
+L AVB-switch-with-Can-gateway-rescue:LINEAR_LDO-AVB-switch-with-can U3
 U 1 1 5C7EBB3E
 P 9350 8350
 F 0 "U3" H 9500 8900 50  0000 L CNN
 F 1 "LINEAR_LDO" H 9100 8550 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 9400 8350 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 9400 8350 50  0001 C CNN
 F 3 "" H 9400 8350 50  0001 C CNN
 F 4 "‏‎IC REG LINEAR 2.5V 1A SOT223‎‏" H -550 -300 50  0001 C CNN "Description"
 F 5 "ON Semiconductor‎‏" H -550 -300 50  0001 C CNN "Manufacturer_Name"
@@ -960,7 +959,7 @@ U 1 1 5C7EBB62
 P 8400 8450
 F 0 "C72" H 8515 8496 50  0000 L CNN
 F 1 "10uF" H 8515 8405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8400 8450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 8450 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 8400 8450 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -974,7 +973,7 @@ U 1 1 5C7EBB6B
 P 10600 8450
 F 0 "C73" H 10715 8496 50  0000 L CNN
 F 1 "10uF" H 10715 8405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10600 8450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10600 8450 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 10600 8450 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -1086,7 +1085,7 @@ U 1 1 5C9EBC2C
 P 11450 2900
 F 0 "R14" V 11350 2800 50  0000 C CNN
 F 1 "330" V 11350 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11380 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 2900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 11450 2900 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1100,7 +1099,7 @@ U 1 1 5C9F7848
 P 11450 3100
 F 0 "R15" V 11350 3000 50  0000 C CNN
 F 1 "330" V 11350 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11380 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 3100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 11450 3100 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1124,7 +1123,7 @@ U 1 1 5CA33808
 P 13700 2900
 F 0 "R16" V 13600 2800 50  0000 C CNN
 F 1 "330" V 13600 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13630 2900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13700 2900 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1138,7 +1137,7 @@ U 1 1 5CA3380F
 P 13700 3100
 F 0 "R17" V 13600 3000 50  0000 C CNN
 F 1 "330" V 13600 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13630 3100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13700 3100 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1162,7 +1161,7 @@ U 1 1 5CA3E3A8
 P 13700 5500
 F 0 "R18" V 13600 5400 50  0000 C CNN
 F 1 "330" V 13600 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13630 5500 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13700 5500 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1176,7 +1175,7 @@ U 1 1 5CA3E3AF
 P 13700 5700
 F 0 "R19" V 13600 5600 50  0000 C CNN
 F 1 "330" V 13600 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 5700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13630 5700 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13700 5700 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1200,7 +1199,7 @@ U 1 1 5CA4971F
 P 13700 8100
 F 0 "R20" V 13600 8000 50  0000 C CNN
 F 1 "330" V 13600 8200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 8100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13630 8100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13700 8100 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1214,7 +1213,7 @@ U 1 1 5CA49726
 P 13700 8300
 F 0 "R21" V 13600 8200 50  0000 C CNN
 F 1 "330" V 13600 8400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13630 8300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13630 8300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13700 8300 50  0001 C CNN
 F 4 "‏‎RES SMD 330 OHM 5% 1/10W 0603‎‏" H 0   0   50  0001 C CNN "Description"
 F 5 "Bourns Inc.‎" H 0   0   50  0001 C CNN "Manufacturer_Name"
@@ -1259,12 +1258,12 @@ Connection ~ 11650 3850
 Wire Wire Line
 	11650 3850 11650 3900
 $Comp
-L AVB-switch-with-can:LINEAR_LDO U10
+L AVB-switch-with-Can-gateway-rescue:LINEAR_LDO-AVB-switch-with-can U10
 U 1 1 5C9490BB
 P 5400 8400
 F 0 "U10" H 5150 8100 50  0000 L CNN
 F 1 "LINEAR_LDO" H 5150 8600 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 5450 8400 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5450 8400 50  0001 C CNN
 F 3 "" H 5450 8400 50  0001 C CNN
 F 4 "‏‎IC REG LINEAR 1.2V 1A SOT223" H -550 -300 50  0001 C CNN "Description"
 F 5 "	‏‎STMicroelectronics" H -550 -300 50  0001 C CNN "Manufacturer_Name"
@@ -1297,7 +1296,7 @@ U 1 1 5C9490D1
 P 4450 8500
 F 0 "C5" H 4565 8546 50  0000 L CNN
 F 1 "0.1uF" H 4565 8455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4450 8500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 8500 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4450 8500 50  0001 C CNN
 F 4 "‏‎CAP CER 0.1UF 50V X7R 1206‎‏	" H 0   -100 50  0001 C CNN "Description"
 F 5 "Yageo‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -1312,7 +1311,7 @@ U 1 1 5C9490DA
 P 6650 8500
 F 0 "C6" H 6765 8546 50  0000 L CNN
 F 1 "10uF" H 6765 8455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6650 8500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 8500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 6650 8500 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -1331,12 +1330,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 8350 4450 8350
 $Comp
-L AVB-switch-with-can:LINEAR_LDO U11
+L AVB-switch-with-Can-gateway-rescue:LINEAR_LDO-AVB-switch-with-can U11
 U 1 1 5C967A9D
 P 9300 9700
 F 0 "U11" H 9000 9400 50  0000 L CNN
 F 1 "LINEAR_LDO" H 9050 9950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 9350 9700 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 9350 9700 50  0001 C CNN
 F 3 "" H 9350 9700 50  0001 C CNN
 F 4 "‏‎IC REG LINEAR 1.2V 1A SOT223" H -550 -300 50  0001 C CNN "Description"
 F 5 "	‏‎STMicroelectronics" H -550 -300 50  0001 C CNN "Manufacturer_Name"
@@ -1368,7 +1367,7 @@ U 1 1 5C967AB3
 P 8350 9800
 F 0 "C75" H 8465 9846 50  0000 L CNN
 F 1 "0.1uF" H 8465 9755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8350 9800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8350 9800 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8350 9800 50  0001 C CNN
 F 4 "‏‎CAP CER 0.1UF 50V X7R 1206‎‏	" H 0   -100 50  0001 C CNN "Description"
 F 5 "Yageo‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -1383,7 +1382,7 @@ U 1 1 5C967ABC
 P 10550 9800
 F 0 "C76" H 10665 9846 50  0000 L CNN
 F 1 "10uF" H 10665 9755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10550 9800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10550 9800 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 10550 9800 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -1412,12 +1411,12 @@ AVDDH_IN
 Text GLabel 3750 7750 2    50   Input ~ 0
 VDDHS_IN
 $Comp
-L AVB-switch-with-can:LINEAR_LDO U12
+L AVB-switch-with-Can-gateway-rescue:LINEAR_LDO-AVB-switch-with-can U12
 U 1 1 5C9C5BF7
 P 2200 7800
 F 0 "U12" H 2350 8350 50  0000 L CNN
 F 1 "LINEAR_LDO" H 1300 8400 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 2250 7800 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2250 7800 50  0001 C CNN
 F 3 "" H 2250 7800 50  0001 C CNN
 F 4 "‏‎IC REG LINEAR 2.5V 1A SOT223‎‏" H -550 -300 50  0001 C CNN "Description"
 F 5 "ON Semiconductor‎‏" H -550 -300 50  0001 C CNN "Manufacturer_Name"
@@ -1449,7 +1448,7 @@ U 1 1 5C9C5C0C
 P 1250 7900
 F 0 "C77" H 1365 7946 50  0000 L CNN
 F 1 "10uF" H 1365 7855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1250 7900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1250 7900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 1250 7900 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
@@ -1463,7 +1462,7 @@ U 1 1 5C9C5C15
 P 3450 7900
 F 0 "C78" H 3565 7946 50  0000 L CNN
 F 1 "10uF" H 3565 7855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3450 7900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 7900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 3450 7900 50  0001 C CNN
 F 4 "‏‎CAP TANT POLY 10UF 10V 1206‎‏" H 0   -100 50  0001 C CNN "Description"
 F 5 "KEMET‎‏" H 0   -100 50  0001 C CNN "Manufacturer_Name"
